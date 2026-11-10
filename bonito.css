@@ -20,7 +20,7 @@ label {
     margin-top: 12px;
     font-weight: bold;
 }
-button {
+button, .boton {
     display: inline-block;
     padding: 10px 15px;
     margin-top: 15px;
@@ -30,4 +30,18 @@ button {
     color: white;
     text-decoration: none;
     cursor: pointer;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background: #243b64;
+    color: white;
 }
