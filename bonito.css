@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #edeaf3;
+    margin: 0;
+    padding: 30px;
+}
+.contenedor {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(166, 156, 255, 0.904);
+    padding: 25px;
+    border-radius: 10px;
+}
+h5, h3 {
+    text-align: center;
+    color: #1b0636;
+}
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #540b70;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
